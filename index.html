@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato</title>
+    <!-- Icon -->
+    <link
+      rel="shortcut icon"
+      href="https://b.zmtcdn.com/images/square_zomato_logo_new.svg"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./responsive.css" />
+    <!-- Font Awsome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul
+              class="navbar-nav me-auto mb-2 mb-lg-0 w-100 d-flex justify-content-end"
+            >
+              <li class="nav-item pe-lg-3">
+                <a class="nav-link" href="#">Became Partner</a>
+              </li>
+              <li class="nav-item pe-lg-3">
+                <a class="nav-link" href="#">Carrer</a>
+              </li>
+
+              <li class="nav-item pe-lg-3">
+                <a class="nav-link" href="#">Login</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sign Up</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- End of Nav Bar -->
+
+      <div
+        class="container d-flex justify-content-center align-items-center h-75 mt-5"
+      >
+        <div
+          class="row d-flex flex-column align-items-center justify-content-center"
+        >
+          <div
+            class="col-6 d-flex align-items-center justify-content-center flex-column w-100 p-4"
+          >
+            <img
+              src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png"
+              alt=""
+              srcset=""
+              class="main-logo"
+            />
+            <h2 class="text-light fw-normal mt-4 text-center">
+              Discover the best food & drinks in <b>Kochi</b>
+            </h2>
+          </div>
+          <div class="col-6 d-flex justify-content-center w-100 px-4">
+            <div class="input-group mt-2 mt-lg-4">
+              <select
+                class="form-select w-25"
+                aria-label="Default select example"
+              >
+                <option selected>Kochi</option>
+              </select>
+              <input
+                type="search"
+                class="form-control w-50"
+                placeholder="Search"
+                aria-label="Search"
+                aria-describedby="search-addon"
+              />
+              <button type="button" class="btn btn-danger" data-mdb-ripple-init>
+                search
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- First Section -->
+    <section class="container mt-4">
+      <div class="row gap-3 d-flex justify-content-center">
+        <div
+          class="col-5 box-menu shadow d-flex justify-content-end flex-column p-0 rounded-4 border border-2"
+          style="
+            background-image: url(./imgs/close-up-hamburgers-cutting-board.jpg);
+          "
+        >
+          <div
+            class="container w-100 bg-light rounded-4 rounded-top-0 px-3 py-2"
+          >
+            <div class="text-dark fs-4 fw-medium">Order Online</div>
+            <p class="text-secondary">Order your foods online with offers!</p>
+          </div>
+        </div>
+        <div
+          class="col-5 box-menu shadow d-flex justify-content-end flex-column p-0 rounded-4 border border-2"
+          style="
+            background-image: url(./imgs/appetizing-healthy-rice-with-vegetables-white-plate-wooden-table.jpg);
+          "
+        >
+          <div
+            class="container w-100 bg-light rounded-4 rounded-top-0 px-3 py-2"
+          >
+            <div class="text-dark fs-4 fw-medium">Dinning</div>
+            <p class="text-secondary">
+              View city's best dining venues with offers!
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Section 2 -->
+
+    <section class="container mt-5">
+      <h2>Collections</h2>
+      <div class="container p-0 d-flex justify-content-between">
+        <p class="pe-3">
+          Explore curated lists of top restaurants, cafes, pubs, and bars in
+          Kochi, based on trends
+        </p>
+        <a href="" class="text-danger nav-link"> All Collections in Kochi</a>
+      </div>
+      <div class="row gap-1 d-flex justify-content-center p-2">
+        <div class="col-5 col-lg p-2">
+          <img
+            class="img img-fluid rounded-3"
+            src="./imgs/thumbnails/roll-cake-wooden-board.jpg"
+          />
+
+          <h4 class="text-center fw-bold mt-3">Subway Club (Subway)</h4>
+          <p class="text-center m-0">Turkey, ham, roast beef, vegetables.</p>
+          <h3 class="text-center">$230</h3>
+        </div>
+        <div class="col-5 col-lg p-2">
+          <img
+            class="img img-fluid rounded-3"
+            src="./imgs/thumbnails/top-view-bowls-with-indian-food.jpg"
+          />
+
+          <h4 class="text-center fw-bold mt-3">
+            Crunchwrap Supreme (Taco Bell)
+          </h4>
+          <p class="text-center m-0">
+            Beef, cheese, lettuce, crunchy tortilla.
+          </p>
+          <h3 class="text-center">$150</h3>
+        </div>
+        <div class="col-5 col-lg p-2">
+          <img
+            class="img img-fluid rounded-3"
+            src="./imgs/thumbnails/view-delicious-burger-with-buns-cheese.jpg"
+          />
+
+          <h4 class="text-center fw-bold mt-3">Whopper (Burger King)</h4>
+          <p class="text-center m-0">
+            Flame-grilled patty, fresh tomatoes, lettuce.
+          </p>
+          <h3 class="text-center">$249</h3>
+        </div>
+        <div class="col-5 col-lg p-2">
+          <img
+            class="img img-fluid rounded-3"
+            src="./imgs/thumbnails/close-up-delicious-burger-meal.jpg"
+          />
+
+          <h4 class="text-center fw-bold mt-3">Big Mac (McDonald's)</h4>
+          <p class="text-center m-0">Double patty, special sauce, lettuce.</p>
+          <h3 class="text-center">$200</h3>
+        </div>
+      </div>
+    </section>
+
+    <!-- Location Section -->
+
+    <section class="container mt-5">
+      <h2>Popular localities in and around <b>Kochi</b></h2>
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-12">
+            <div class="row gap-3">
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Kakkanad</h4>
+                  <p class="m-0">501 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Kallor</h4>
+                  <p class="m-0">50 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Eadapally</h4>
+                  <p class="m-0">80 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Kalamashery</h4>
+                  <p class="m-0">108 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+            </div>
+          </div>
+          <div class="col-12 mt-3">
+            <div class="row gap-3">
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Kakkanad</h4>
+                  <p class="m-0">501 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Kallor</h4>
+                  <p class="m-0">50 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Eadapally</h4>
+                  <p class="m-0">80 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+
+              <!-- **** -->
+              <div
+                class="col p-3 d-flex justify-content-between align-items-center rounded-3 border border-2"
+              >
+                <div
+                  class="d-flex align-items-start justify-content-center flex-column"
+                >
+                  <h4 class="m-0">Kalamashery</h4>
+                  <p class="m-0">108 Places</p>
+                </div>
+                <i class="fa-solid fa-arrow-right" style="color: #000000"></i>
+              </div>
+              <!-- **** -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review Section -->
+    <section class="mt-5 container">
+      <h2 class="text-center">Words from Our Community</h2>
+      <div class="container mt-5">
+        <div class="row gap-2">
+          <div
+            class="col d-flex justify-content-start flex-column align-items-center review-tab"
+          >
+            <img
+              class="border shadow rounded-circle review-image"
+              src="./imgs/thumbnails/peoples/cheerful-curly-business-girl-wearing-glasses.jpg"
+            />
+            <h5 class="text-danger fw-bold mt-3">Emily S</h5>
+            <p class="fst-italic text-center">
+              "Quick and easy to use, with fast delivery and a great variety of
+              restaurants—my new favorite food app!"
+            </p>
+          </div>
+          <!-- ***** -->
+          <div
+            class="col d-flex justify-content-start flex-column align-items-center review-tab"
+          >
+            <img
+              class="border shadow rounded-circle review-image"
+              src="./imgs/thumbnails/peoples/indian-business-man-with-crossed-hands-posing-isolated-white-wall.jpg"
+            />
+            <h5 class="text-danger fw-bold mt-3">John D</h5>
+            <p class="fst-italic text-center">
+              "The app’s sleek design and real-time updates made my food
+              delivery experience effortless."
+            </p>
+          </div>
+          <!-- ***** -->
+          <div
+            class="col d-flex justify-content-start flex-column align-items-center review-tab"
+          >
+            <img
+              class="border shadow rounded-circle review-image"
+              src="./imgs/thumbnails/peoples/comfort-romance-coziness-concept-cheerful-lovely-african-american-girl-yellow-sweater-hugging-herself-embracing-body-as-feeling-comfy-smiling-silly-camera-white-wall.jpg"
+            />
+            <h5 class="text-danger fw-bold mt-3">Sarah M</h5>
+            <p class="fst-italic text-center">
+              "Great selection, smooth checkout, and the food always arrives hot
+              and fresh!"
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Question and Answers -->
+    <section class="container mt-5">
+      <h2 class="text-center">Frequently asked questions and answers</h2>
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="col col-lg-6">
+            <div class="accordion mt-5" id="accordionExample">
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne"
+                    aria-expanded="true"
+                    aria-controls="collapseOne"
+                  >
+                    How do I track my order?
+                  </button>
+                </h2>
+                <div
+                  id="collapseOne"
+                  class="accordion-collapse collapse show"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    After placing your order, you can easily track its status in
+                    real-time through the app's "Order History" section, where
+                    you’ll see updates on preparation, dispatch, and delivery.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="collapseTwo"
+                  >
+                    Can I schedule a delivery for later?
+                  </button>
+                </h2>
+                <div
+                  id="collapseTwo"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    Yes, our app allows you to schedule a delivery at your
+                    preferred time, ensuring your food arrives exactly when you
+                    want it.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree"
+                    aria-expanded="false"
+                    aria-controls="collapseThree"
+                  >
+                    What payment methods are accepted?
+                  </button>
+                </h2>
+                <div
+                  id="collapseThree"
+                  class="accordion-collapse collapse"
+                  data-bs-parent="#accordionExample"
+                >
+                  <div class="accordion-body">
+                    We accept a variety of payment methods, including
+                    credit/debit cards, digital wallets, and cash on delivery,
+                    making it convenient for you to choose your preferred
+                    option.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Downlaod App -->
+    <section class="container-fluid download-app-bg mt-5 pb-5 pb-lg-0">
+      <div class="d-flex justify-content-center align-items-center w-100 pt-5">
+        <div class="row">
+          <div
+            class="col-12 col-md-6 d-flex justify-content-center justify-content-md-end"
+          >
+            <img
+              src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png"
+              alt=""
+              class="img-fluid w-50"
+            />
+          </div>
+          <div
+            class="col-12 col-md-6 d-flex align-items-center align-items-md-start flex-column"
+          >
+            <h3 class="text-danger">Get the Zomato app</h3>
+            <p class="text-center text-md-start">
+              We will send you a link, open it on your phone to download the app
+            </p>
+            <form>
+              <div
+                class="d-flex align-items-center justify-content-center justify-content-md-start"
+              >
+                <div class="form-check d-flex align-items-center">
+                  <input class="form-check-input" type="radio" name="options" />
+                  <label class="form-check-label fs-5 ms-2 mt-1" for="option1">
+                    Email
+                  </label>
+                </div>
+                <div class="form-check ms-3 d-flex align-items-center">
+                  <input class="form-check-input" type="radio" name="options" />
+                  <label class="form-check-label fs-5 ms-2 mt-1" for="option2">
+                    Phone
+                  </label>
+                </div>
+              </div>
+              <div class="d-flex align-items-center mt-3">
+                <input
+                  type="text"
+                  class="form-control me-2"
+                  id="inputText"
+                  placeholder="Email"
+                />
+                <input
+                  type="submit"
+                  class="btn btn-danger"
+                  value="Get app Link"
+                />
+              </div>
+            </form>
+            <p class="text-secondary mt-3">Download app from</p>
+            <div
+              class="d-flex w-75 m-0 justify-content-center justify-content-md-start"
+            >
+              <img
+                src="https://b.zmtcdn.com/data/webuikit/23e930757c3df49840c482a8638bf5c31556001144.png"
+                alt=""
+                srcset=""
+                class="img-fluid me-3 w-25"
+              />
+              <img
+                src="https://b.zmtcdn.com/data/webuikit/9f0c85a5e33adb783fa0aef667075f9e1556003622.png"
+                alt=""
+                srcset=""
+                class="img-fluid w-25"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer class="container-fluid p-5">
+      <div class="container d-flex flex-column justify-content-center">
+        <div class="container w-100">
+          <img
+            src="https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png"
+            alt=""
+            srcset=""
+            width="100px"
+          />
+        </div>
+        <div class="row d-flex justify-content-evenly w-100 gap-lg-5">
+          <div
+            class="col d-flex flex-column align-items-lg-start justify-content-lg-end"
+          >
+            <div class="mt-5 d-flex align-items-start">
+              <div class="me-3">
+                <h6 class="text-uppercase">About zomato</h6>
+                <ul class="d-flex flex-column list-unstyled">
+                  <li class="text-secondary me-3 my-1">Who are We</li>
+                  <li class="text-secondary me-3 my-1">Blog</li>
+                  <li class="text-secondary me-3 my-1">Work with Us</li>
+                  <li class="text-secondary me-3 my-1">Investors</li>
+                  <li class="text-secondary me-3 my-1">Report</li>
+                  <li class="text-secondary me-3 my-1">Press</li>
+                  <li class="text-secondary">Contact Us</li>
+                </ul>
+              </div>
+              <div>
+                <h6 class="text-uppercase">Zomaverse</h6>
+                <ul class="d-flex flex-column list-unstyled">
+                  <li class="text-secondary me-3 my-1">Zomato</li>
+                  <li class="text-secondary me-3 my-1">Blink</li>
+                  <li class="text-secondary me-3 my-1">Feeding India</li>
+                  <li class="text-secondary me-3 my-1">Zomato Live</li>
+                  <li class="text-secondary me-3 my-1">Zomato Land</li>
+                  <li class="text-secondary me-3 my-1">Wheather Union</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div
+            class="col d-flex flex-column align-items-lg-end justify-content-lg-start"
+          >
+            <div class="mt-5 d-flex align-items-start">
+              <div class="me-3">
+                <h6 class="text-uppercase">Learn more</h6>
+                <ul class="d-flex flex-column list-unstyled">
+                  <li class="text-secondary me-3 my-1">Privcy</li>
+                  <li class="text-secondary me-3 my-1">Security</li>
+                  <li class="text-secondary me-3 my-1">Terms</li>
+                  <li class="text-secondary me-3 my-1">Sitemap</li>
+                </ul>
+              </div>
+              <div>
+                <h6 class="text-uppercase">Social links</h6>
+                <ul class="d-flex list-unstyled">
+                  <li class="text-secondary me-3 my-1">
+                    <i class="fa-brands fa-facebook" style="color: #000000"></i>
+                  </li>
+
+                  <li class="text-secondary me-3 my-1">
+                    <i
+                      class="fa-brands fa-instagram"
+                      style="color: #000000"
+                    ></i>
+                  </li>
+
+                  <li class="text-secondary me-3 my-1">
+                    <i class="fa-solid fa-envelope" style="color: #000000"></i>
+                  </li>
+
+                  <li class="text-secondary me-3 my-1">
+                    <i class="fa-brands fa-youtube" style="color: #000000"></i>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <p class="text-secondary">
+          By continuing past this page, you agree to our Terms of Service,
+          Cookie Policy, Privacy Policy and Content Policies. All trademarks are
+          properties of their respective owners. 2008-2024 © Zomato™ Ltd. All
+          rights reserved.
+        </p>
+      </div>
+    </footer>
+    <!-- Bootstrap Script -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

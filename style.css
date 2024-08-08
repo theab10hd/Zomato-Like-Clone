@@ -1,0 +1,75 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+/* Header Nav */
+
+header {
+  background-image: linear-gradient(#00000080, #00000080),
+    url(./imgs/top-view-table-full-delicious-food-composition.jpg);
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 100px;
+}
+
+.navbar-brand {
+  width: 120px;
+  height: 20px;
+  background-image: url(https://b.zmtcdn.com/web_assets/b40b97e677bc7b2ca77c58c61db266fe1603954218.png);
+  background-size: 80%;
+  background-repeat: no-repeat;
+}
+
+.navbar {
+  background-color: white;
+}
+
+.navbar .nav-link:hover {
+  color: #dc3545;
+}
+
+.navbar-toggler,
+.navbar-toggler:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.main-logo {
+  width: 200px;
+}
+
+/* First Section */
+
+.box-menu {
+  height: 300px;
+  background-size: cover;
+  background-position: bottom;
+  transition: 0.5s ease-in-out;
+}
+
+/* Review */
+
+.review-image {
+  object-fit: cover;
+  width: 150px;
+  height: 150px;
+}
+
+.download-app-bg {
+  background-image: linear-gradient(#ffffff, #ffe0e0);
+}
+
+.review-tab {
+  transition: 0.5s ease-in-out;
+}
+.review-tab:hover {
+  scale: 1.05;
+}
